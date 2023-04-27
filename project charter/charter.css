@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(58, 58, 180);
+    position: relative;
+}
+.container-fill{
+    background-color: rgb(58, 58, 180);
+    width: 70%;
+    min-height: 50vh;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "aa bb cc"
+    "dd ee cc"
+    ;
+   
+
+}
+/* goal-muc tieu */
+.goal{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.goal-text{
+    margin: 10px;
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-bottom: 20px;
+    color: blue;
+}
+.goal-text h3{
+    margin-bottom: 10px;
+}
+.goal-end{
+    display: flex;
+    border-bottom: 1px solid rgb(122, 103, 103);
+    margin: 0 10px 20px 20px
+  
+}
+.goal-end p {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.goal-end ion-icon{
+   font-size: 15px;
+ 
+}
+/* scopes- pham vi */
+.scopes{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.sopes-text{
+    margin: 10px;
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-bottom: 20px;
+    color: blue;
+}
+.sopes-text h3{
+    margin-bottom: 10px;
+}
+.in-out{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin-left: 20px;
+    
+}
+.in p, .out p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+/* Team - dong doi */
+.team{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.team-text{
+    margin: 10px;
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-bottom: 20px;
+    color: blue;}
+.team-text h3 {
+    margin-bottom: 10px;
+}
+.merber{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+.member-name{
+    margin-left: 10px;
+}
+/* primary- can ban */
+.primary{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.primary-text{
+    margin: 10px;
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-bottom: 20px;
+    color: blue;}
+.primary-text h3 {
+    margin-bottom: 10px;}
+.contai-pri{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.contai-pri p{
+    margin-left: 10px;
+}
+/* Timeline- thoi gian */
+.timeline{
+    margin: 10px;
+    grid-area: cc;
+    background-color: antiquewhite;}
+  
+.timeline-text{
+    margin: 10px;
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-bottom: 20px;
+    color: blue;}
+.timeline-text h3 {
+    margin-bottom: 10px;}
+.container-time{
+    display: flex ;
+    margin-left: 10px;
+    border-bottom: 1px dotted rgb(52, 143, 143);
+    margin-top: 5px;
+    margin-right: 10px;
+    
+
+} 
+.pro-start{
+    margin-left: 20px;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(165, 125, 38);
+    font-size: 20px; 
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}  
